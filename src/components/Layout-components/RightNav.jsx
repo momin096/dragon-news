@@ -1,8 +1,11 @@
+import FindUs from "../FindUs";
+import SocialLogin from "../SocialLogin";
 
 const RightNav = () => {
     return (
-        <div>
-            <h2>Right aside is here</h2>
+        <div className="space-y-7">
+            <SocialLogin />
+            <FindUs />
         </div>
     );
 };
